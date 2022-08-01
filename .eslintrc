@@ -1,7 +1,8 @@
 {
-  "plugins": ["cypress"],
+  "plugins": ["cypress", "react", "react-hooks"],
   "extends": ["plugin:cypress/recommended"],
   "rules": {
-    "jest/expect-expect": "off"
+    "jest/expect-expect": "off",
+    "react-hooks/exhaustive-deps": "warn"
   }
 }
